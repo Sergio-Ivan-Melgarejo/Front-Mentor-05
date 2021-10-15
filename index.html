@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  <!-- normalize css -->
+  <link rel="stylesheet" href="normalize.css">
+  <!-- font google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <!-- css style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+
+    <img class="logo" src="images/logo.svg" alt="logo">
+
+    <form id="calculator" class="calculator">
+
+      <section class="section-1 section">
+        <h1 class="text-1">Bill</h1>
+        <input name="bill" type="number" class="input-1 inputs" placeholder="0">
+        <h2 class="text-1">Select Tip %</h2>
+        <div class="flex-percentage">
+          <input type="button" class="percentage" value="5%" name="percentage-one">
+          <input type="button" class="percentage" value="10%" name="percentage-two">
+          <input type="button" class="percentage" value="15%" name="percentage-three">
+          <input type="button" class="percentage" value="25%" name="percentage-four">
+          <input type="button" class="percentage" value="50%" name="percentage-five">
+          <input class="inputs input-custom" type="number" name="custom" placeholder="Custom">
+        </div>
+        <h2 class="text-1">Number of People</h2>
+        <input placeholder="0" class="inputs input-2" type="number"  name="numerPeople">
+      </section>
+
+      <section class="section-2 section">
+        <div class="flex">
+          <p class="text-1 flex-items">Tip Amount<br><span>
+          / person</span></p>
+          <p class="flex-number numberTip">$0.00</p>
+        </div>
+        <div class="flex">
+          <p class="text-1 flex-items">Total<br><span>
+          / person</span></p>
+          <p class="flex-number numberTotal">$0.00</p>
+        </div>
+      <input type="reset" class="button button-reset" value="Reset">
+      </section>
+    </form>
+
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Sergio-Ivan-Melgarejo" target="_blank">Sergio M.</a>.
+  </div>
+  <!-- code js -->
+  <script src="code.js"></script>
+</body>
+</html>
