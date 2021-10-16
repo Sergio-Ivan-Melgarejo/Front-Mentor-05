@@ -30,6 +30,7 @@ const calculator =()=>{
 
 const verification = (event) =>{
     let value = parseInt(event.value);
+    event.style.borderColor = "transparent";
     if (value < 0){
         event.style.borderColor = "var(--color-2)";
         if(event.classList.contains("input-1")){
@@ -65,10 +66,7 @@ const verification = (event) =>{
         else if(event.classList.contains("input-2")){
             msgP.innerHTML = "";    
         }
-    }   
-    if(!value > 0 && !value < 0 && !value == 0){
-        event.style.borderColor = "transparent";
-    }
+    }  
 }
 
 const resetAvtivated =()=>{
