@@ -24,8 +24,8 @@ const formData=()=>{
 const calculator =()=>{
     let data = formData();
     console.log(data.b,typeof data.b, data.c,typeof data.c, data.p,typeof data.p)
-    numberTip.textContent = "$" + ((data.b / data.p) * data.c / 100) ;
-    numberTotal.textContent = "$" + ((data.b / data.p) + ((data.b / data.p) * data.c / 100));
+    numberTip.textContent = "$" + ((data.b / data.p) * data.c / 100).toFixed(2) ;
+    numberTotal.textContent = "$" + ((data.b / data.p) + ((data.b / data.p) * data.c / 100)).toFixed(2);
 }   //.toFiced(2)...
 
 const verification = (event) =>{
