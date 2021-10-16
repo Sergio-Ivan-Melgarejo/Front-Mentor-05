@@ -25,8 +25,8 @@
     <form id="calculator" class="calculator">
 
       <section class="section-1 section">
-        <h1 class="text-1">Bill</h1>
-        <input name="bill" type="number" class="input-1 inputs" placeholder="0">
+        <h1 class="text-1">Bill<span class="msg-b"></span></h1>
+        <input name="bill" type="number" class="input-1 inputs" placeholder="0" value="">
         <h2 class="text-1">Select Tip %</h2>
         <div class="flex-percentage">
           <input type="button" class="percentage" value="5%" name="percentage-one">
@@ -35,8 +35,9 @@
           <input type="button" class="percentage" value="25%" name="percentage-four">
           <input type="button" class="percentage" value="50%" name="percentage-five">
           <input class="inputs input-custom" type="number" name="custom" placeholder="Custom">
+          <p class="msg-c"></p>
         </div>
-        <h2 class="text-1">Number of People</h2>
+        <h2 class="text-1">Number of People<span class="msg-p"></span></h2>
         <input placeholder="0" class="inputs input-2" type="number"  name="numerPeople">
       </section>
 
@@ -51,7 +52,7 @@
           / person</span></p>
           <p class="flex-number numberTotal">$0.00</p>
         </div>
-      <input type="reset" class="button button-reset" value="Reset">
+      <input type="button" class="button button-reset" value="Reset">
       </section>
     </form>
 
