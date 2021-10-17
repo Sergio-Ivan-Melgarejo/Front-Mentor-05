@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://sergio-ivan-melgarejo.github.io/Front-Mentor-06/)
+- Live Site URL: [Add live site URL here](https://sergio-ivan-melgarejo.github.io/Front-Mentor-05/)
 
 ## My process
 
@@ -46,7 +46,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- Fetch
 - JavaScript
 
 ## Author
